@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Encryption.srcs/sources_1/ip/Ciphertext_RAM/sim/Ciphertext_RAM.v" \
+"../../../../Encryption.srcs/sources_1/ip/Plaintext_ROM/sim/Plaintext_ROM.v" \
+"../../../../Encryption.srcs/sources_1/new/C_RAM_control.v" \
+"../../../../Encryption.srcs/sources_1/new/PushButton_Left.v" \
+"../../../../Encryption.srcs/sources_1/new/PushButton_Right.v" \
+"../../../../Encryption.srcs/sources_1/new/PushButton_Up.v" \
+"../../../../Encryption.srcs/sources_1/new/Top.v" \
+"../../../../Encryption.srcs/sources_1/new/clk_divider.v" \
+"../../../../Encryption.srcs/sources_1/new/display_control.v" \
+"../../../../Encryption.srcs/sources_1/new/encryption.v" \
+"../../../../Encryption.srcs/sources_1/new/sevensegment.v" \
+"../../../../Encryption.srcs/sources_1/new/transmitter.v" \
+"../../../../Encryption.srcs/sim_1/new/sim_encryption.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

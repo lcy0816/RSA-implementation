@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Sat Mar  9 22:00:21 2019
+# Process ID: 9060
+# Current directory: C:/Users/linyi/Documents/FPGA/Encryption/Encryption.runs/Ciphertext_RAM_synth_1
+# Command line: vivado.exe -log Ciphertext_RAM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Ciphertext_RAM.tcl
+# Log file: C:/Users/linyi/Documents/FPGA/Encryption/Encryption.runs/Ciphertext_RAM_synth_1/Ciphertext_RAM.vds
+# Journal file: C:/Users/linyi/Documents/FPGA/Encryption/Encryption.runs/Ciphertext_RAM_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Ciphertext_RAM.tcl -notrace

@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"sim_encryption_func_impl.v" \
+"../../../../../Encryption.srcs/sim_1/new/sim_encryption.v" \
+
+# Do not sort compile order
+nosort

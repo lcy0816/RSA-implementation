@@ -1,0 +1,6 @@
+0.6
+2018.2
+Jul 26 2018
+19:36:16
+C:/Users/linyi/Documents/FPGA/Encryption/Encryption.sim/sim_1/synth/func/xsim/sim_encryption_func_synth.v,1552288018,verilog,,C:/Users/linyi/Documents/FPGA/Encryption/Encryption.srcs/sim_1/new/sim_encryption.v,,Digit;Digit_0;Digit_1;Digit_2;Digit_3;Digit_4;Digit_5;Digit_6;Plaintext_ROM;Plaintext_ROM_blk_mem_gen_generic_cstr;Plaintext_ROM_blk_mem_gen_prim_width;Plaintext_ROM_blk_mem_gen_prim_wrapper_init;Plaintext_ROM_blk_mem_gen_top;Plaintext_ROM_blk_mem_gen_v8_4_1;Plaintext_ROM_blk_mem_gen_v8_4_1_synth;PushButton_Left;Top;clk_divider;clk_divider__parameterized0;encrpytion;glbl;sevensegment,,,,,,,,
+C:/Users/linyi/Documents/FPGA/Encryption/Encryption.srcs/sim_1/new/sim_encryption.v,1552287203,verilog,,,,sim_encryption,,,,,,,,

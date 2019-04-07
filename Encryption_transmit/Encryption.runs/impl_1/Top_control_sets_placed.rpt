@@ -1,0 +1,93 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2.1 (win64) Build 2288692 Thu Jul 26 18:24:02 MDT 2018
+| Date         : Tue Mar 26 19:31:46 2019
+| Host         : caplab05 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_control_sets_placed.rpt
+| Design       : Top
+| Device       : xc7a100t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    25 |
+| Unused register locations in slices containing registers |    58 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            2 |
+|      4 |            1 |
+|      8 |            6 |
+|     10 |            2 |
+|    16+ |           14 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              68 |           14 |
+| No           | No                    | Yes                    |              50 |           13 |
+| No           | Yes                   | No                     |             234 |           43 |
+| Yes          | No                    | No                     |             118 |           13 |
+| Yes          | No                    | Yes                    |             208 |           36 |
+| Yes          | Yes                   | No                     |               8 |            1 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------+--------------------------------------------+--------------------------------------------+------------------+----------------+
+|    Clock Signal   |                Enable Signal               |              Set/Reset Signal              | Slice Load Count | Bel Load Count |
++-------------------+--------------------------------------------+--------------------------------------------+------------------+----------------+
+|  CLKDIV2/clk_10Hz | pushbtn_r/btn_flag_i_1_n_0                 | pushbtn_l/encrypt/ready_flag_reg_0         |                1 |              2 |
+|  clk_IBUF_BUFG    |                                            | pushbtn_r/trans_1/TxD_i_1_n_0              |                1 |              2 |
+|  CLKDIV2/clk_10Hz |                                            | pushbtn_l/encrypt/ready_flag_reg_0         |                2 |              4 |
+|  clk_IBUF_BUFG    | pushbtn_l/encrypt/address_reg[3][0]        | pushbtn_l/encrypt/ready_flag_reg_0         |                1 |              8 |
+|  clk_IBUF_BUFG    | pushbtn_r/trans_1/bitcounter[3]_i_2__0_n_0 | pushbtn_r/trans_1/bitcounter[3]_i_1__0_n_0 |                1 |              8 |
+|  clk_IBUF_BUFG    | pushbtn_r/address[3]_i_1__1_n_0            | pushbtn_l/encrypt/ready_flag_reg_0         |                2 |              8 |
+|  clk_IBUF_BUFG    | pushbtn_r/bitcounter                       | pushbtn_l/encrypt/ready_flag_reg_0         |                2 |              8 |
+|  clk_IBUF_BUFG    | pushbtn_r/data_trans[5]_i_1_n_0            |                                            |                1 |              8 |
+|  clk_IBUF_BUFG    | pushbtn_u/address[3]_i_1__0_n_0            | pushbtn_l/encrypt/ready_flag_reg_0         |                2 |              8 |
+|  clk_IBUF_BUFG    | pushbtn_r/E[0]                             | pushbtn_l/encrypt/ready_flag_reg_0         |                1 |             10 |
+|  clk_IBUF_BUFG    | pushbtn_r/update_29_out                    |                                            |                2 |             10 |
+|  clk_IBUF_BUFG    | pushbtn_l/encrypt/cipher[7]_i_1_n_0        |                                            |                1 |             16 |
+|  clk_IBUF_BUFG    | pushbtn_l/encrypt/E[0]                     |                                            |                3 |             16 |
+|  clk_IBUF_BUFG    | pushbtn_l/dataout_q                        |                                            |                1 |             16 |
+|  clk_IBUF_BUFG    | pushbtn_r/data                             |                                            |                2 |             16 |
+|  clk_IBUF_BUFG    | pushbtn_u/E[0]                             |                                            |                1 |             16 |
+|  clk_IBUF_BUFG    | pushbtn_l/encrypt/i[8]_i_1_n_0             | pushbtn_l/encrypt/ready_flag_reg_0         |                3 |             18 |
+|  clk_IBUF_BUFG    | pushbtn_l/encrypt/n1[5]_i_1_n_0            | pushbtn_l/encrypt/ready_flag_reg_0         |                3 |             18 |
+|  clk_IBUF_BUFG    | pushbtn_r/trans_1/rightshiftreg            |                                            |                2 |             20 |
+|  clk_IBUF_BUFG    |                                            | pushbtn_r/trans_1/counter[0]_i_1__1_n_0    |                4 |             28 |
+|  clk_IBUF_BUFG    | pushbtn_l/encrypt/c[15]_i_1_n_0            | pushbtn_l/encrypt/ready_flag_reg_0         |                4 |             32 |
+|  clk_IBUF_BUFG    | pushbtn_l/encrypt/x[15]_i_1_n_0            | pushbtn_l/encrypt/ready_flag_reg_0         |                7 |             32 |
+|  clk_IBUF_BUFG    | pushbtn_l/encrypt/b_0                      | pushbtn_l/encrypt/ready_flag_reg_0         |               10 |             64 |
+|  clk_IBUF_BUFG    |                                            |                                            |               14 |             68 |
+|  clk_IBUF_BUFG    |                                            | pushbtn_l/encrypt/ready_flag_reg_0         |               49 |            250 |
++-------------------+--------------------------------------------+--------------------------------------------+------------------+----------------+
+
+

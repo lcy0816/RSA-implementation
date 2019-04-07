@@ -1,0 +1,25 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/linyi/Documents/FPGA/Encryption/Encryption.sim/sim_1/impl/func/xsim/sim_encryption_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Digit
+INFO: [VRFC 10-311] analyzing module Digit_0
+INFO: [VRFC 10-311] analyzing module Digit_1
+INFO: [VRFC 10-311] analyzing module Digit_2
+INFO: [VRFC 10-311] analyzing module Digit_3
+INFO: [VRFC 10-311] analyzing module Digit_4
+INFO: [VRFC 10-311] analyzing module Digit_5
+INFO: [VRFC 10-311] analyzing module Digit_6
+INFO: [VRFC 10-311] analyzing module Plaintext_ROM
+INFO: [VRFC 10-311] analyzing module PushButton_Left
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-311] analyzing module clk_divider
+INFO: [VRFC 10-311] analyzing module clk_divider__parameterized0
+INFO: [VRFC 10-311] analyzing module encrpytion
+INFO: [VRFC 10-311] analyzing module sevensegment
+INFO: [VRFC 10-311] analyzing module Plaintext_ROM_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module Plaintext_ROM_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module Plaintext_ROM_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-311] analyzing module Plaintext_ROM_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module Plaintext_ROM_blk_mem_gen_v8_4_1
+INFO: [VRFC 10-311] analyzing module Plaintext_ROM_blk_mem_gen_v8_4_1_synth
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/linyi/Documents/FPGA/Encryption/Encryption.srcs/sim_1/new/sim_encryption.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_encryption
